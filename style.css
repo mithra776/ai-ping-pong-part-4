@@ -1,0 +1,75 @@
+body
+{
+   background-size: cover;
+}
+
+.heading
+{
+    width: 100%;
+    text-align: left;
+}
+
+.heading h3
+{
+    display :inline;
+}
+
+.butn
+{
+    border: 1px solid white;
+    float: right;
+}
+
+#status , #start
+{
+    font-size: 22px;
+    border-radius: 10px;
+    font-size: 22px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#restart-button
+{
+    margin-bottom: 10px;
+    border-radius: 10px;
+    font-size: 22px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.modal-dialog
+{
+    width: 90%;
+}
+
+h4
+{
+    font-size: 24px;
+    background-color: lightseagreen;
+    line-height: 2;
+    margin: 0px;
+}
+
+.Instruction_image
+{
+   display: inline-block;
+   width: 45%;
+}
+
+.copy_right_footer
+{
+    position: fixed;
+    color: white;
+    width: 100%;
+    bottom: 0;
+    line-height: 3;
+    text-align: center;
+    background-color: grey;
+}
+
+canvas
+{
+  box-shadow: 5px 5px 5px white;
+  border: 2px solid white;
+  border-radius: 10px;
+  margin-top: 150px;
+}
